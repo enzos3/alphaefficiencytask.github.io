@@ -177,7 +177,7 @@ p {
 .circle4 {
   position: absolute;
   right: calc(15% + 11vw);
-  top: calc(170.5% + 8.5vh);
+  top: calc(168.5% + 8.5vh);
   width: 404px;
   height: 404px;
   max-width: 404px;
@@ -190,7 +190,7 @@ p {
 .circle5 {
   position: absolute;
   right: calc(15% + 11vw);
-  top: calc(187.5% + 8.5vh);
+  top: calc(189.5% + 8.5vh);
   width: 404px;
   height: 202px;
   max-width: 404px;
@@ -467,7 +467,7 @@ a:hover {
 
   .clock {
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 0;
     transform: translateY(-50%);
     margin-right: 0;
@@ -489,6 +489,8 @@ a:hover {
   .clock-unit p {
     margin-bottom: 0.5rem;
     font-size: 0.6rem;
+    margin-left: 2vw;
+    margin-right: 2vw;
   }
 
   .clock-unit .clock-value {
@@ -595,7 +597,7 @@ a:hover {
     display: flex;
     justify-content: center;
     width: 40%;
-    gap: 0.7rem;
+    gap: 1.2rem;
     margin: 0 auto;
   }
 
@@ -934,8 +936,8 @@ a:hover {
   .circle4 {
     display: relative;
     margin: 2rem auto;
-    right: 15%;
-    top: 238%;
+    right: 10%;
+    top: 266%;
     width: 300px;
     height: 300px;
     max-width: none;
@@ -943,16 +945,16 @@ a:hover {
 
   .circle5 {
     display: inherit;
-    right: 15%;
-    top: 253%;
+    right: 9.5vw;
+    top: 285%;
     width: 300px;
     height: 150px;
   }
 
   .circle6 {
     display: inherit;
-    right: 15vw;
-    top: 225%;
+    right: 7vw;
+    top: 255%;
     width: 85px;
     height: 85px;
     border: 20px solid transparent;
@@ -970,7 +972,7 @@ a:hover {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   #book {
-    height: 100vh;
+    height: 120vh;
   }
 
   .container {
@@ -994,32 +996,32 @@ a:hover {
   }
   .image-container img {
     position: absolute;
-    top: 190vh;
+    top: 205vh;
     left: 25vw;
     width: 70%;
-    max-width: 40%;
+    max-width: 35%;
   }
 
   .circle4 {
     display: inherit;
-    right: 31vw;
-    top: 2480px;
-    width: 350px;
-    height: 350px;
+    right: 36vw;
+    top: 222vh;
+    width: 300px;
+    height: 300px;
   }
 
   .circle5 {
     display: inherit;
-    right: 31vw;
-    top: 2660px;
-    width: 350px;
-    height: 175px;
+    right: 36vw;
+    top: 238vh;
+    width: 300px;
+    height: 150px;
   }
 
   .circle6 {
     display: inherit;
     right: 28vw;
-    top: 2350px;
+    top: 210vh;
     width: 109px;
     height: 109px;
     border: 17px solid transparent;
@@ -1259,12 +1261,12 @@ a:hover {
 
   /* Remove the ::before pseudo-elements on smaller screens */
   .real-list:nth-child(1) h3::before {
-    top: 383cqh;
+    top: 449vh;
     left: 5rem;
     width: 80%;
   }
   .real-list:nth-child(2) h3::before {
-    top: 407cqh;
+    top: 480vh;
     left: 5rem;
     width: 80%;
   }
@@ -1296,12 +1298,12 @@ a:hover {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .real-list:nth-child(1) h3::before {
-    top: 345cqh;
+    top: 397vh;
     left: 18%;
     width: 30%;
   }
   .real-list:nth-child(2) h3::before {
-    top: 345cqh;
+    top: 397vh;
     right: 18%;
     width: 30%;
   }
@@ -1393,7 +1395,7 @@ a:hover {
     /* Stack items vertically on smaller screens */
     align-items: center;
     margin: 0 auto;
-    margin-top: 3rem;
+    margin-top: 7rem;
     padding: 0 1rem;
     /* Add padding to the sides */
   }
@@ -1433,14 +1435,14 @@ a:hover {
   }
 
   .faq-a-container a {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     margin: 0;
     margin-right: 2rem;
   }
 
   .visible-p {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .svg-container {
@@ -1643,4 +1645,3 @@ a:hover {
 }
 
 /* END FOOTER SECTION */
-
