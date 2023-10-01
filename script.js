@@ -137,7 +137,7 @@ buttons.addEventListener("click", () => {
       menuItems.forEach((item, index) => {
         setTimeout(() => {
           item.classList.add("show-item");
-        }, index * 60); // Adjust the delay as needed
+        }, index * 60);
       });
       // Remove the transitionend event listener to prevent it from firing multiple times
       nav.removeEventListener("transitionend", () => {});
@@ -148,7 +148,6 @@ buttons.addEventListener("click", () => {
       item.classList.remove("show-item");
     });
 
-    // Animate the nav element to slide out
     setTimeout(() => {
       nav.style.opacity = "0";
       nav.style.transform = "translateX(100%)";
